@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rajdhani&display=swap");
+
+body{
+  font-family: "Rajdhani" ;
+}
+
+
+.info button{
+ 
+}
+
+input{
+margin-left:10px;
+margin-bottom: 10px;
+width:200px;
+height:40px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+li{
+font-size:20px;
+font-weight:400;
+}
+
+.LibApp{
+height: 100px;
+background: #CF0029;
+}
+
+form{
+margin: 20px auto;
+width:300px;
+border-radius: 5%;
+}
+
+.info button{
+ 
+}
+
+.book-form button{
+ width:100px;
+ height:50px;
+ color: white;
+ font-size:15px;
+ background: #990000;
+}
+
+ul.list{
+  width: 400px;
+  background:#393E46;
+  border:2px solid black;
+  border-radius: 5%;
+  list-style-type: upper-roman;
+  margin: 10px auto;
+  color:white;
+}
+
+.LibApp h1{
+font-size: 40px;
+font-weight:700;
+font-family:"Rajdhani";
+padding: 2% 0px;
+color: white;
+}
+
+label{
+  font-weight:600;
+  font-family: "Rajdhani";
+  font-size: 25px;
+}
+
+.App {
+  text-align: center;
+}
+
+span{
+font-family:"Roboto";
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
